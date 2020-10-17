@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Chris Connelly Developer @ccdd89127076
+
+# THANKS
+
+    Me
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JS
+    Skeleton.css, Cody House, Netlify, Modernizr, Normalize.css

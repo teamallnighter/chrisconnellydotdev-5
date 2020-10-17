@@ -1,0 +1,38 @@
+{
+  "name": "chrisconnellydotdev",
+  "version": "5.0.0",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp sass && gulp scripts && ntl dev",
+    "deploy": "gulp sass && gulp scripts && ntl deploy --prod && gulp watch"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp-htmlmin": "^3.0.0",
+    "run-sequence": "^1.2.2",
+    "autoprefixer": "^9.4.3",
+    "gulp-autoprefixer": "latest",
+    "browser-sync": "^2.26.3",
+    "codyhouse-framework": "^2.5.4",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss-calc": "^7.0.1",
+    "postcss-css-variables": "git+https://github.com/CodyHouse/postcss-css-variables"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teamallnighter/chrisconnellydotdev-5"
+  },
+  "author": "Chris Connelly AKA Teamallnighter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamallnighter/chrisconnellydotdev-5/issues"
+  },
+  "homepage": "https://chrisconnelly.dev"
+}

@@ -1,0 +1,36 @@
+.hero-section{
+    background-image: url('https://source.unsplash.com/collection/37167582/'); 
+    height:100vh;
+
+}
+
+.hero-box{
+    margin-top:20vh;
+
+    border-radius: 20px;
+
+    box-shadow: var(var(--shadow-md));
+}
+
+.quote{
+    padding: 5vh 15vw;
+    height: 100vh;
+}
+
+.home-form{
+    margin-top: 10vh;
+    padding: 50px;
+    box-shadow: var(--shadow-xl);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.footer-item{
+    color: white;
+    font-size: 1rem;
+}
+
+.hidden{
+    display: none;
+}
+
