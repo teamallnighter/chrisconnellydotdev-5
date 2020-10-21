@@ -12,6 +12,15 @@
     box-shadow: var(var(--shadow-md));
 }
 
+.hero-home{
+    height: 100vh;
+}
+
+
+.intro{
+    height: 100vh;
+}
+
 .quote{
     padding: 5vh 15vw;
     height: 100vh;
@@ -34,3 +43,101 @@
     display: none;
 }
 
+
+.this-section{
+    margin-bottom: 25vh;
+    height: 50vh;
+}
+
+.banner-1{
+    box-shadow: var(--shadow-lg);
+    margin: 10vh 15vw;
+}
+
+.diamond{
+    height: 100vh;
+}
+
+.the-next-one{
+    height: 100vh;
+}
+
+.intro-box{
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+    margin-top: 20vh;
+}
+
+.mega-nav__quick-link{
+    color: white;
+}
+
+.quality-diamond{
+    height: 100vh;
+    padding-top:25vh ;
+}
+
+
+.responsiveness{
+    margin: 20vh 0vw;
+    height: 100vh;
+}
+
+.promises{
+    margin: ovh 15vw;
+}
+
+.user-data-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin: 10vh 35vw;
+}
+
+.website-facts{
+    margin-bottom: 10vh;
+}
+
+.testimonials{
+    margin: 15vh 10vw;
+    padding: 50px 50px;
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+
+}
+
+.blog-grid{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    padding: 10vh 15vw;
+    margin: 5vh 10vw;
+}
+
+.blog-card{
+    height: 1vh;
+}
+
+.author-card{
+    box-shadow: var(--shadow-md);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.author-card-wrapper{
+    margin-top:10vh;
+}
+
+.home-contact{
+    margin: 10vh 15vw;
+}
+
+.nav-item{
+    height: 200vh;
+}
