@@ -2,3 +2,10 @@
 
 # Chrisconnellydotdev V5
 
+## Features:
+
+* Netlify Functions
+* Netlify Forms 
+* Sticky Hero Sections
+* Scroll Over Sections
+* Mail Chimp on Netlify Script
