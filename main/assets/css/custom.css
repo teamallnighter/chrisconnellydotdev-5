@@ -141,3 +141,49 @@
 .nav-item{
     height: 200vh;
 }
+
+.crm-key-features{
+    height: 100vh;
+}
+
+.crm-intro{
+    height: 100vh;
+}
+
+.more-features{
+    margin: 10vh 15vw;
+}
+
+.mail-intro{
+    height: 100vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.email-key-features{
+    margin-top: 10vh;
+}
+
+.seo-intro{
+    margin-top: 100vh;
+    height: 100vh;
+}
+
+.turn-key-footer{
+    margin-top: 10vh;
+}
+
+.turn-key-cta{
+    box-shadow: var(--shadow-md);
+    margin-top: 10vh;
+}
+
+.turn-key-sub-nav{
+    box-shadow: var(--space-sm);
+}
+
+.turn-key-contact-me{
+    margin: 0vh 15vw;
+    margin-top: 90vh;
+    
+}
