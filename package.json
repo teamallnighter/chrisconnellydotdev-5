@@ -5,7 +5,9 @@
     "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp sass && gulp scripts && ntl dev",
-    "deploy": "gulp sass && gulp scripts && ntl deploy --prod && gulp watch"
+    "deploy": "gulp sass && gulp scripts && ntl deploy --prod && gulp watch",
+    "quick-deploy": "gulp sass && gulp scripts && ntl deploy --prod"
+
   },
   "devDependencies": {
     "del": "^2.0.2",

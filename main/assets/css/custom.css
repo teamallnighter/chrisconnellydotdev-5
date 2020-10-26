@@ -1,5 +1,5 @@
 .hero-section{
-    background-image: url('https://source.unsplash.com/collection/37167582/'); 
+    /*background-image: url('https://source.unsplash.com/collection/37167582/'); */
     height:100vh;
 
 }
@@ -164,10 +164,7 @@
     margin-top: 10vh;
 }
 
-.seo-intro{
-    margin-top: 100vh;
-    height: 100vh;
-}
+
 
 .turn-key-footer{
     margin-top: 10vh;
@@ -184,6 +181,45 @@
 
 .turn-key-contact-me{
     margin: 0vh 15vw;
-    margin-top: 90vh;
+    margin-top: 10vh;
     
+}
+
+.seo-coming-soon{
+    background-color: #1b1b1b;
+}
+
+.contact-me{
+    margin-top: 50vh;
+}
+
+.web-intro{
+    height: 100vh;
+
+}
+
+.video-hero-box{
+    background-color: white; 
+    border-radius: 20px; 
+    padding: 50px; 
+    box-shadow: var(--shadow-md); 
+    margin-top: 15vh;
+}
+
+.web-sites-intro{
+    height: 100vh;
+}
+
+.unique-af{
+    padding: 20vh 20vw;
+}
+
+.texty-animaty{
+    margin-top: 25vh;
+    margin-left: 5vw;
+}
+
+.scroller{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
 }
