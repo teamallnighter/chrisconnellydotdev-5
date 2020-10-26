@@ -101,160 +101,109 @@
    </head>
    <body>
       <main>
-         <section>
-            <div class="container">
-               <section class="position-relative z-index-1 padding-y-xl">
-                  <div class="container max-width-adaptive-md">
-                     <div class="margin-bottom-xl">
-                        <img src="../assets/img/logo-no-bg.png" height="25" alt="Web Design Calgary"/>
-                        <h1 class="text-center">Custom Functions</h1>
-                     </div>
-                     <div class="grid gap-lg">
-                        <div class="col-3@md">
-                           <nav class="toc toc--sticky text-sm@md js-toc">
-                              <ul class="toc__list js-toc__list">
-                                 <li class="toc__label" tabindex="0">Categories</li>
-                                 <li><a href="#functions" class="toc__link js-smooth-scroll">Functions</a></li>
-                                 <li><a href="#seo" class="toc__link js-smooth-scroll">SEO Functions</a></li>
-                                 <li><a href="#code" class="toc__link js-smooth-scroll">Code Functions</a></li>
-                              </ul>
-                           </nav>
+        <section class="feature-v2 padding-y-xl">
+            <div class="container max-width-adaptive-lg">
+              <div class="grid gap-md">
+                <div class="col-4@md">
+                    <div class="text-sm color-contrast-medium margin-bottom-xxs">Smart Forms</div>
+                    <h1>Smart forms that help you capture more information about your potential customers.</h1>
+                </div>
+              
+                <div class="col-8@md">
+                  <div class="text-component padding-left-md@md">
+                    <ul>
+                        <li>Capture data from abondoned forms</li>
+                        <li>Webhooks that allow you to tie into your CRM</li>
+                        <li>Automated notifications to email or slack</li>
+                        <li>Captcha free spam blocking</li>
+                    </ul>          
+                    <p class="flex justify-end"><a class="btn btn--subtle" href="#smart-form-quote">Get A Quote</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="pwa-contact" id="smart-form-quote">
+            <form class="form-template-v3 home-form" name="smart-form-quote" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="thankyou.html">
+               <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
+                  <div class="text-component margin-bottom-md text-center">
+                     <h2>Contact Me</h2>
+                     <p>Please allow 1-2 business days for me to respond</p>
+                  </div>
+                  <p class="hidden">
+                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                  </p>
+                  <div class="margin-bottom-xs">
+                     <div class="grid gap-xxs items-center@md">
+                        <div class="col-4@md">
+                           <label class="form-label" for="yourName">Your Name</label>
                         </div>
-                        <div class="toc-content js-toc-content col-9@md">
-                           <div class="grid gap-lg">
-                              <div>
-                                 <h2 id="basics" class="text-md margin-bottom-xs">Functions</h2>
-                                 <ul class="accordion-v2 flex flex-column gap-xxxs js-accordion" data-animation="on" data-multi-items="on" data-version="v2">
-                                    <li class="accordion-v2__item bg shadow-sm radius-md  js-accordion__item">
-                                       <button class="reset accordion-v2__header padding-y-sm padding-x-md js-tab-focus" type="button">
-                                          <span class="text-md">What is a function?</span>
-                                          <svg class="icon accordion-v2__icon-arrow no-js:is-hidden" viewBox="0 0 16 16" aria-hidden="true">
-                                             <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
-                                                <path d="M2 2l12 12" />
-                                                <path d="M14 2L2 14" />
-                                             </g>
-                                          </svg>
-                                       </button>
-                                       <div class="accordion-v2__panel js-accordion__panel">
-                                          <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
-                                             <p>Functions are small scripts that run at the build and deploy times.</p>
-                                          </div>
-                                       </div>
-                                    </li>
-                                    <li class="accordion-v2__item bg shadow-sm radius-md  js-accordion__item">
-                                       <button class="reset accordion-v2__header padding-y-sm padding-x-md js-tab-focus" type="button">
-                                          <span class="text-md">What do you mean by build and deploy?</span>
-                                          <svg class="icon accordion-v2__icon-arrow no-js:is-hidden" viewBox="0 0 16 16" aria-hidden="true">
-                                             <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
-                                                <path d="M2 2l12 12" />
-                                                <path d="M14 2L2 14" />
-                                             </g>
-                                          </svg>
-                                       </button>
-                                       <div class="accordion-v2__panel js-accordion__panel">
-                                          <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
-                                             <p>When we make a change to your site the site gets rebuilt and redeployed. So for example, if you make a blog post the site gets rebuilt and sent to the sever to be distributed to the internet.</p>
-                                          </div>
-                                       </div>
-                                    </li>
-                                 </ul>
-                              </div>
-                              <div>
-                                 <h2 id="seo" class="text-md margin-bottom-xs">SEO Functions</h2>
-                                 <ul class="accordion-v2 flex flex-column gap-xxxs js-accordion" data-animation="on" data-multi-items="on" data-version="v2">
-                                    <li class="accordion-v2__item bg shadow-sm radius-md  js-accordion__item">
-                                       <button class="reset accordion-v2__header padding-y-sm padding-x-md js-tab-focus" type="button">
-                                          <span class="text-md">Site Map: Build</span>
-                                          <svg class="icon accordion-v2__icon-arrow no-js:is-hidden" viewBox="0 0 16 16" aria-hidden="true">
-                                             <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
-                                                <path d="M2 2l12 12" />
-                                                <path d="M14 2L2 14" />
-                                             </g>
-                                          </svg>
-                                       </button>
-                                       <div class="accordion-v2__panel js-accordion__panel">
-                                          <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
-                                             <p>This will automatically build or rebuild a site map of your website. Search Engines use the site map to better crawl your site.</p>
-                                          </div>
-                                       </div>
-                                    </li>
-                                    <li class="accordion-v2__item bg shadow-sm radius-md  js-accordion__item">
-                                       <button class="reset accordion-v2__header padding-y-sm padding-x-md js-tab-focus" type="button">
-                                          <span class="text-md">Site Map Submit</span>
-                                          <svg class="icon accordion-v2__icon-arrow no-js:is-hidden" viewBox="0 0 16 16" aria-hidden="true">
-                                             <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
-                                                <path d="M2 2l12 12" />
-                                                <path d="M14 2L2 14" />
-                                             </g>
-                                          </svg>
-                                       </button>
-                                       <div class="accordion-v2__panel js-accordion__panel">
-                                          <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
-                                             <p>This function submits recenlty build site maps to Google, Bing and Yandex and lets them know the site has changed and needs to be reindexed.</p>
-                                          </div>
-                                       </div>
-                                    </li>
-                                    <li class="accordion-v2__item bg shadow-sm radius-md  js-accordion__item">
-                                       <button class="reset accordion-v2__header padding-y-sm padding-x-md js-tab-focus" type="button">
-                                          <span class="text-md">Lighthouse</span>
-                                          <svg class="icon accordion-v2__icon-arrow no-js:is-hidden" viewBox="0 0 16 16" aria-hidden="true">
-                                             <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
-                                                <path d="M2 2l12 12" />
-                                                <path d="M14 2L2 14" />
-                                             </g>
-                                          </svg>
-                                       </button>
-                                       <div class="accordion-v2__panel js-accordion__panel">
-                                          <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
-                                             <p>This function runs Google's Lighthouse test on the website. Lighthouse is a testing system Google created to ensure best standards and practices are being used</p>
-                                          </div>
-                                       </div>
-                                    </li>
-                                 </ul>
-                              </div>
-                              <div>
-                                 <h2 id="code" class="text-md margin-bottom-xs">Code Functions</h2>
-                                 <ul class="accordion-v2 flex flex-column gap-xxxs js-accordion" data-animation="on" data-multi-items="on" data-version="v2">
-                                    <li class="accordion-v2__item bg shadow-sm radius-md  js-accordion__item">
-                                       <button class="reset accordion-v2__header padding-y-sm padding-x-md js-tab-focus" type="button">
-                                          <span class="text-md">HTML Validator </span>
-                                          <svg class="icon accordion-v2__icon-arrow no-js:is-hidden" viewBox="0 0 16 16" aria-hidden="true">
-                                             <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
-                                                <path d="M2 2l12 12" />
-                                                <path d="M14 2L2 14" />
-                                             </g>
-                                          </svg>
-                                       </button>
-                                       <div class="accordion-v2__panel js-accordion__panel">
-                                          <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
-                                             <p>This funtion is basically like spell check for code. It ensures the code I write is valid and working before deploying the site</p>
-                                          </div>
-                                       </div>
-                                    </li>
-                                    <li class="accordion-v2__item bg shadow-sm radius-md  js-accordion__item">
-                                       <button class="reset accordion-v2__header padding-y-sm padding-x-md js-tab-focus" type="button">
-                                          <span class="text-md">Minification</span>
-                                          <svg class="icon accordion-v2__icon-arrow no-js:is-hidden" viewBox="0 0 16 16" aria-hidden="true">
-                                             <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
-                                                <path d="M2 2l12 12" />
-                                                <path d="M14 2L2 14" />
-                                             </g>
-                                          </svg>
-                                       </button>
-                                       <div class="accordion-v2__panel js-accordion__panel">
-                                          <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
-                                             <p>The code minification functions removes all spaces and paragraphs to the code. Making it more machine readable and, smaller.</p>
-                                          </div>
-                                       </div>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
+                        <div class="col-8@md">
+                           <input class="form-control width-100%" type="text" name="yourName" id="yourName" required>
                         </div>
                      </div>
                   </div>
-               </section>
-            </div>
+                  <div class="margin-bottom-xs">
+                     <div class="grid gap-xxs items-center@md">
+                        <div class="col-4@md">
+                           <label class="form-label" for="phone">Phone</label>
+                        </div>
+                        <div class="col-8@md">
+                           <input class="form-control width-100%" type="tel" name="phone" id="phone">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="margin-bottom-xs">
+                     <div class="grid gap-xxs items-center@md">
+                        <div class="col-4@md">
+                           <label class="form-label" for="inputEmail">Email</label>
+                        </div>
+                        <div class="col-8@md">
+                           <input class="form-control width-100%" type="email" name="inputEmail" id="inputEmail" required>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="grid gap-xxs items-center@md">
+                        <div class="col-4@md">
+                           <label class="form-label" for="textarea">Textarea</label>
+                           <p class="text-xs color-contrast-medium margin-top-xxxxs">Optional</p>
+                        </div>
+                        <div class="col-8@md">
+                           <textarea class="form-control width-100%" name="textarea" id="textarea"></textarea>
+                        </div>
+                     </div>
+                  </div>
+               </fieldset>
+               <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
+                  <div>
+                     <div class="grid gap-xxs items-center@md">
+                        <div class="col-4@md">
+                           <div class="form-label">Choose 1+ options</div>
+                        </div>
+                        <div class="col-8@md">
+                           <ul class="flex flex-wrap gap-md">
+                              <li>
+                                 <input class="checkbox" type="checkbox" id="checkbox1">
+                                 <label for="checkbox1">Development</label>
+                              </li>
+                              <li>
+                                 <input class="checkbox" type="checkbox" id="checkbox2">
+                                 <label for="checkbox2">Hosting</label>
+                              </li>
+                              <li>
+                                 <input class="checkbox" type="checkbox" id="checkbox3">
+                                 <label for="checkbox3">SEO or Social Media Marketing</label>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </fieldset>
+               <div class="text-right">
+                  <button class="btn btn--primary">Submit</button>
+               </div>
+            </form>
          </section>
       </main>
       <script src="../assets/js/scripts.js"></script>
