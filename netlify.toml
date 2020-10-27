@@ -3,8 +3,6 @@
 [build]
 publish = "main"
 
-functions = "functions/"
-
 [[plugins]]
 package = "@netlify/plugin-sitemap"
 

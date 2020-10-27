@@ -5,9 +5,10 @@
     "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp sass && gulp scripts && ntl dev",
-    "deploy": "gulp sass && gulp scripts && ntl deploy --prod && gulp watch",
-    "quick-deploy": "gulp sass && gulp scripts && ntl deploy --prod",
-    "init": "ntl init"
+    "deploy": "gulp sass && gulp scripts && ntl deploy --prod",
+    "quick-deploy": "gulp sass && gulp scripts && ntl build && ntl deploy --prod",
+    "init": "ntl init",
+    "build": "gulp sass && gulp scripts && ntl build && ntl deploy --prod"
 
   },
   "devDependencies": {

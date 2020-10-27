@@ -223,3 +223,28 @@
     margin-top: 15vh;
     margin-bottom: 15vh;
 }
+
+.crm-features{
+    margin-top: 5vh;
+
+}
+
+.crm-hero-box{
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+
+.buttin-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.expansions{
+    margin-top: 20vh;
+}
