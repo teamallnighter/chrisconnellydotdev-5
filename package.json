@@ -9,7 +9,6 @@
     "quick-deploy": "gulp sass && gulp scripts && ntl build && ntl deploy --prod",
     "init": "ntl init",
     "build": "gulp sass && gulp scripts && ntl build && ntl deploy --prod"
-
   },
   "devDependencies": {
     "del": "^2.0.2",
@@ -38,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/teamallnighter/chrisconnellydotdev-5/issues"
   },
-  "homepage": "https://chrisconnelly.dev"
+  "homepage": "https://chrisconnelly.dev",
+  "dependencies": {
+    "netlify-plugin-minify-html": "^0.3.0"
+  }
 }
