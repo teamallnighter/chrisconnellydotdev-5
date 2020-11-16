@@ -256,3 +256,8 @@
 .contact-socials{
     margin-top: 10vh;
 }
+
+.review-link{
+    text-decoration: none;
+    color: #1b1b1b;
+}
